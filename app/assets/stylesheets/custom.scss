@@ -63,12 +63,45 @@ body {
     text-decoration: none;
   }
 
-  nav{
+  .nav{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
   }
 
+  .nav a {
+    display: inline;
+    margin: 0;
+
+  }
   img {
       display: none
+  }
+  footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+  }
+  
+  footer a {
+    color: #555;
+  }
+  
+  footer a:hover {
+    color: #222;
+  }
+  
+  footer small {
+    float: left;
+  }
+  
+  footer ul {
+    float: right;
+    list-style: none;
+  }
+  
+  footer ul li {
+    float: left;
+    margin-left: 15px;
   }
